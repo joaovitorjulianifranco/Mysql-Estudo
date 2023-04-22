@@ -1,0 +1,9 @@
+insert into cadastrar (Id, Nome, Sobre_Nome, Email, DDD, Telefone, Data_Nasc, Idade, Genero) values ('2', 'Mafalda', 'Santos', 'mafalda@hotmail.com', '18', '997885004', '2006-02-05', '17', 'F');
+insert into cadastrar (Id, Nome, Sobre_Nome, Email, DDD, Telefone, Data_Nasc, Idade, Genero) values ('3', 'Carlos', 'pereira', 'carlos23@hotmail.com', '', '', '1991-12-05', '31', 'M');
+insert into cadastrar (Id, Nome, Sobre_Nome, Email, DDD, Telefone, Data_Nasc, Idade, Genero) values ('4', 'Juditi', 'sab', 'juditi22@gmail.com', '18', '993445088', '2001-05-20', '21', 'F');
+insert into cadastrar (Id, Nome, Sobre_Nome, Email, DDD, Telefone, Data_Nasc, Idade, Genero) values ('5', 'Je', 'Santo', 'jesanto33@gmail.com', '18', '34009880', '1980-07-25', '21', 'M');
+insert into cadastrar (Id, Nome, Sobre_Nome, Email, DDD, Telefone, Data_Nasc, Idade, Genero) values ('6', 'Juditi', 'carolini', 'juditi123@outlook.com', '11', '34023890', '2002-03-07', '21', 'F');
+
+select distinct Nome from cadastrar;
+
+select * from cadastrar;
