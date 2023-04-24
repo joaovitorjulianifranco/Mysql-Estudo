@@ -1,0 +1,72 @@
+create database Municipio; #Criando uma Coluna Para o Banco de Dados
+
+#Criando a Tabela do Banco de Dados
+create table Cidade(
+Id int auto_increment,
+Cidade varchar(100) not null,
+Estado varchar(2) not null,
+Cep int,
+Habitantes int,
+Codigo_IBGE int,
+primary key(Id, Cep, Habitantes, Codigo_IBGE)
+);
+
+#Selecionando a Tabela do Banco 
+select * from cidade;
+
+#Comando pra Inserir na Tabela do banco criado
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('1', 'Adamantina', 'SP', '17800000', '35111', '3500105');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('2', 'Álvares Machado', 'SP', '19160000', '24998', '3501301');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('3', 'Americana', 'Sp', '', '242018', '3501608');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('4', 'Aparecida', 'SP', '', '36185', '3502507	');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('5', 'Aparecida do Oeste', 'SP', '15735000', '4158', '3502606');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('6', 'Araçatuba', 'SP', '', '198129', '3502804');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('7', 'Assis', 'SP', '', '105087', '3504008');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('8', 'Campos do Jordão', 'SP', '18273420', '52405', '3509700');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('9', 'Botucatu', 'SP', '', '148130', '3507506');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('10', 'José Bonifácio', 'SP', '15200000', '37366', '3525706');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('11', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('12', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('13', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('14', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('15', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('16', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('17', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('18', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('19', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('20', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('21', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('22', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('23', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('24', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('25', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('26', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('27', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('28', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('29', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('30', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('31', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('32', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('33', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('34', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('35', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('36', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('37', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('38', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('39', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('40', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('41', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('42', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('43', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('44', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('45', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('46', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('47', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('48', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('49', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('50', '', '', '', '', '');
+
+drop table cidade;
+
+#Alterar a tabela
+update cidade set Cep = '15735000' where Id = '5';
