@@ -1,4 +1,4 @@
-create database Municipio; #Criando uma Coluna Para o Banco de Dados
+ create database Municipio; #Criando uma Coluna Para o Banco de Dados
 
 #Criando a Tabela do Banco de Dados
 create table Cidade(
@@ -18,33 +18,33 @@ select * from cidade;
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('1', 'Adamantina', 'SP', '17800000', '35111', '3500105');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('2', 'Álvares Machado', 'SP', '19160000', '24998', '3501301');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('3', 'Americana', 'Sp', '', '242018', '3501608');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('4', 'Aparecida', 'SP', '', '36185', '3502507	');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('4', 'Aparecida', 'SP', '', '36185', '3502507');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('5', 'Aparecida do Oeste', 'SP', '15735000', '4158', '3502606');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('6', 'Araçatuba', 'SP', '', '198129', '3502804');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('7', 'Assis', 'SP', '', '105087', '3504008');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('8', 'Campos do Jordão', 'SP', '18273420', '52405', '3509700');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('9', 'Botucatu', 'SP', '', '148130', '3507506');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('10', 'José Bonifácio', 'SP', '15200000', '37366', '3525706');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('11', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('12', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('13', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('14', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('15', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('16', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('17', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('18', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('19', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('20', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('21', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('22', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('23', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('24', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('25', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('26', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('27', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('28', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('29', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('30', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('11', 'Alto Araguaia', 'MT', '78780000', '19385', '5100300');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('12', 'Araguaiana', 'MT', '78685000', '3109', '5101001');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('13', 'Aripuanã', 'MT', '78325000', '22714', '5101407');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('14', 'Cáceres', 'MT', '', '94861', '5102504');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('15', 'Cuiabá', 'MT', '', '618124', '5103403');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('16', 'Diamantino', 'MT', '', '22178', '5103502');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('17', 'Figueirópolis do Oeste', 'MT', '78290000', '3452', '5103809');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('18', 'Gaúcha do Norte', 'MT', '78875000', '7782', '5103858');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('19', 'Itiquira', 'MT', '78790000', '13552', '5104609');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('20', 'Juína', 'MT', '', '41101', '5105150');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('21', 'Abaeté', 'MG', '', '23250', '3100203');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('22', 'Alvorada de Minas', 'MG', '39140000', '3605', '3102407');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('23', 'Almenara', 'MG', '39900000', '42143', '3101706');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('24', 'Alpinópolis', 'MG', '37940000', '1000', '3101904');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('25', 'Alto Jequitibá', 'MG', '36976000', '8301', '3153509');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('26', 'Alto Rio Doce', 'MG', '36260000', '10723', '3102100');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('27', 'Alvarenga', 'MG ', '35249000', ' 3783', '3102209');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('28', 'Andrelândia', 'MG', '37300000', '12189', '3102803');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('29', 'Araçuaí', 'MG', '39600000', '36712', '3103405');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('30', 'Alagoa', 'MG', '37458000', '161555', '3101300');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('31', '', '', '', '', '');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('32', '', '', '', '', '');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('33', '', '', '', '', '');
@@ -70,3 +70,5 @@ drop table cidade;
 
 #Alterar a tabela
 update cidade set Cep = '15735000' where Id = '5';
+
+
