@@ -1,4 +1,4 @@
- create database Municipio; #Criando uma Coluna Para o Banco de Dados
+create database Municipio; #Criando uma Coluna Para o Banco de Dados
 
 #Criando a Tabela do Banco de Dados
 create table Cidade(
@@ -45,30 +45,28 @@ insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('2
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('28', 'Andrelândia', 'MG', '37300000', '12189', '3102803');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('29', 'Araçuaí', 'MG', '39600000', '36712', '3103405');
 insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('30', 'Alagoa', 'MG', '37458000', '161555', '3101300');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('31', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('32', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('33', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('34', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('35', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('36', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('37', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('38', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('39', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('40', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('41', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('42', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('43', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('44', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('45', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('46', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('47', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('48', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('49', '', '', '', '', '');
-insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('50', '', '', '', '', '');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('31', 'Alvorada do Sul', 'PR', '86150000', '11503', '4100806');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('32', 'Londrina', 'PR', '', '575377', '4113700');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('33', 'Curitiba', 'PR', '', '1963726', '4106902');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('34', 'Ponta Grossa', 'PR', '', '358838', '4119905');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('35', 'Foz do Iguaçu', 'PR', '', '257971', '4108304');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('36', 'Apucarana', 'PR', '', '137438', '4101408');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('37', 'Cambé', 'PR', '', '108126', '4103701');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('38', 'Cascavel', 'PR', '', '332333', '4104808');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('39', 'Catanduvas', 'PR', '85470000', '10167', '4105003');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('40', 'Maringá', 'PR', '', '436472', '4115200');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('41', 'Chapecó', 'SC', '', '224013', '4204202');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('42', 'Cocal do Sul', 'SC', '88845000', '16821', '4204251');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('43', 'Florianópolis', 'SC', '', '508826', '4205407');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('44', 'Iporã do Oeste', 'SC', '89899000', '9045', '4207650');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('45', 'Itajaí', 'SC', '', '223112', '4208203');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('46', 'Itapoá', 'SC', '', '21177', '4208450');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('47', 'Jacinto Machado', 'SC', '88950000', '10376', '4208708');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('48', 'Joinville', 'SC', '', '597658', '4209102');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('49', 'Lages', 'SC', '', '157349', '4209300');
+insert into cidade (Id, cidade, Estado, Cep, Habitantes, Codigo_IBGE) values ('50', 'Laguna', 'SC', '', '46122', '4209409');
 
 drop table cidade;
 
 #Alterar a tabela
 update cidade set Cep = '15735000' where Id = '5';
-
-
