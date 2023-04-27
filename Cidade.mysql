@@ -70,3 +70,29 @@ drop table cidade;
 
 #Alterar a tabela
 update cidade set Cep = '15735000' where Id = '5';
+
+update cidade set Cidade = 'Alvorada do Sul', Estado = 'PR', Cep = '86150000', Habitantes = '11503', Codigo_IBGE = '4100806' where Id = '31'; 
+
+#Consultar a lista de 10 paises com a maior população
+select Cidade, Habitantes from cidade order by Habitantes limit 10, 1;
+select Id, Cidade, Habitantes from cidade order by Habitantes desc limit 10;
+select Id, Cidade, Habitantes from cidade order by Habitantes limit 10;
+
+#Consultar a lista que Termina com a Determinada Letra
+#select distinct Cidade from cidade where cidade like'%ul';
+
+#Consultando a Lista Proxima de 10 Linhas após as 5 primeiras linhas na Tabela Country
+select * from cidade limit 10,5;
+select * from cidade limit 10, 5;
+select * from cidade limit 10, 15;
+
+#Consultando os Municipios Com Maior Indice de Habitantes
+select Id, Cidade, Habitantes from cidade where Habitantes between 1000000 and 2000000;
+select Id, Cidade, Habitantes from cidade where Habitantes >= 1000000 and Habitantes <= 2000000;
+select Id, Cidade, Habitantes from cidade where Habitantes  > 1000000 and Habitantes < 2000000;
+
+#Avaliar Expressões utilizando select
+select 5/7
+
+#Usando Select Pra Consultar tabelas que não Possui Cep
+#select * from cidade where Cep !='';
