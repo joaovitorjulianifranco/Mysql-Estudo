@@ -79,7 +79,8 @@ select Id, Cidade, Habitantes from cidade order by Habitantes desc limit 10;
 select Id, Cidade, Habitantes from cidade order by Habitantes limit 10;
 
 #Consultar a lista que Termina com a Determinada Letra
-#select distinct Cidade from cidade where cidade like'%ul';
+select distinct Cidade from cidade where cidade like'%ul';
+select distinct Cidade from cidade where cidade like'%e';
 
 #Consultando a Lista Proxima de 10 Linhas após as 5 primeiras linhas na Tabela Country
 select * from cidade limit 10,5;
@@ -93,6 +94,3 @@ select Id, Cidade, Habitantes from cidade where Habitantes  > 1000000 and Habita
 
 #Avaliar Expressões utilizando select
 select 5/7
-
-#Usando Select Pra Consultar tabelas que não Possui Cep
-#select * from cidade where Cep !='';
